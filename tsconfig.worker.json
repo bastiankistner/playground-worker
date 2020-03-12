@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.json",
+  "include": ["worker/index.ts"],
+  "compilerOptions": {
+    "module": "esnext",
+    "noEmit": false,
+    "isolatedModules": false,
+    "outFile": "public/worker.js"
+  }
+}
